@@ -20,10 +20,10 @@ window.PORTFOLIO = {
     {date:"JUN 2024 — PRESENT",role:"Production Control Operations · Final Vehicle Logistics",company:"Toyota Motor Manufacturing Canada · Cambridge, ON",text:"Current frontline manufacturing experience strengthens my understanding of how accurate, dependable systems support time-sensitive operations and the people who use them."}
   ],
   education: [
-    {title:"Graduate Certificate, Reporting Systems & Database Development",school:"Conestoga College",dates:"2023",status:"Graduated with Distinction",description:"Applied study in reporting systems, databases, and software development."},
-    {title:"Bachelor of Science, Computer Science",school:"Polytechnic University of the Philippines",dates:"2000–2004",status:"Completed",description:""},
-    {title:"Professional Development Certificate – Python for Machine Learning",school:"University of Waterloo | WatSPEED",dates:"Jan–May 2026",status:"Completed",description:"Studied AI model training, data preprocessing, and evaluation metrics including confusion matrices and ROC/AUC."},
-    {title:"Coding Agents",school:"University of Waterloo | WatSPEED",dates:"Current course",status:"In progress",description:""}
+    {type:"DEGREE",title:"Bachelor of Science, Computer Science",school:"Polytechnic University of the Philippines",dates:"2000–2004",status:"Completed",description:""},
+    {type:"GRADUATE CERTIFICATE",title:"Reporting Systems & Database Development",school:"Conestoga College",dates:"2023",status:"Graduated with Distinction",description:"Applied study in reporting systems, databases, and software development."},
+    {type:"CERTIFICATE",title:"Python for Machine Learning",school:"University of Waterloo | WatSPEED",dates:"Jan–May 2026",status:"Completed",description:"Studied AI model training, data preprocessing, and evaluation metrics including confusion matrices and ROC/AUC."},
+    {type:"COURSE",title:"Coding Agents",school:"University of Waterloo | WatSPEED",dates:"Sep 2026–Present",status:"In progress",description:""}
   ],
   projects: [
     {state:"ACTIVE PROJECT",kind:"progress",title:"Payment Gateway API",text:"A Java 17 / Spring Boot backend project implementing a secure payment-intent REST flow: create, retrieve, and idempotent confirmation. Includes JWT-protected endpoints and owner isolation, request validation, PostgreSQL persistence with JPA/Flyway, and clear error handling.",outcome:"Unit and PostgreSQL/Testcontainers integration tests; Docker Compose and GitHub Actions CI. CI passed on the project branch in September 2026. Kafka, Redis, and the broader event-driven architecture are future milestones.",tags:["Java 17","Spring Boot","PostgreSQL","JWT","JPA / Flyway","JUnit / Testcontainers"],link:"https://github.com/juliusparco16/payment-gateway-api",linkText:"View project on GitHub"},
